@@ -1,0 +1,17 @@
+@import "../src/assets/fonts/fonts.scss";
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #1a1a16;
+  color: #cfd0c8;
+}
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+

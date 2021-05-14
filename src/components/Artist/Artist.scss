@@ -1,0 +1,28 @@
+$aqua50: #5fbfa4;
+$aqua25: #a7dccd;
+$metal5: #f3f3f1;
+$metal20: #cfd0c8;
+$metal50: #868975;
+$metal80: #36372f;
+$metal90: #272822;
+
+.artist {
+    padding: 20px;
+    a {
+        display: inline-block;
+        color: $metal20;
+        font-size: 30px;
+        cursor: default;
+        font-family: "Telegraf-Regular";
+        text-decoration: none;
+        vertical-align: middle;
+    }
+    h3 {
+        font-size: 20px;
+        font-family: "Telegraf-Regular";
+    }
+    img {
+        max-width: 200px;
+        border-radius: 5px;
+    }
+}

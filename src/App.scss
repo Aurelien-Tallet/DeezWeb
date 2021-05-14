@@ -1,0 +1,33 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    .title {
+        font-family: "Telegraf-UltraBold";
+        text-transform: uppercase;
+        letter-spacing: 10px;
+        padding: 0px 20px;
+        font-size: 45px;
+        line-height: 1;
+
+        a {
+            color: #f3f3f185;
+            text-decoration: none;
+            // border: 1px solid #f3f3f1;
+        }
+    }
+    h2{
+        a{
+            display: inline-block;
+            vertical-align: middle;
+            font-family: "Telegraf-Regular";
+            color: #f3f3f185;
+            text-decoration: none;
+            line-height: 3.5;
+            font-size: 25px;
+            padding: 0px 40px;
+        }
+        img{
+            max-width: 15px;
+        }
+    }
+}

@@ -1,0 +1,81 @@
+$aqua50: #5fbfa4;
+$aqua25: #a7dccd;
+$metal5: #f3f3f1;
+$metal20: #cfd0c8;
+$metal50: #868975;
+$metal80: #36372f;
+$metal90: #272822;
+
+.Album {
+    a{
+        text-decoration: none;
+    }
+    &_tracklist{
+       
+        .tracklist{
+            list-style: none;
+            .track{
+                padding: 10px ;
+                padding-right:20px ;
+                border-bottom: $metal80 solid 1px;
+                display: flex;
+                justify-content: space-between	;
+                &:hover{
+                    background-color: $metal90;
+                }
+                &_title{
+                    font-size: 20px;
+                    font-family: 'Telegraf-Regular';
+                    color:white;
+                }
+            }
+        }
+    }
+    &_hero {
+        max-width: 300px;
+        padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        img {
+            max-width: 200px;
+            border-radius: 5px;
+        }
+        &_desc {
+            display: flex;
+
+            h2 {
+                margin:0;
+                box-sizing: border-box;
+                padding: 0 5px;
+                a {
+                    
+                    display: inline-block;
+                    color: $metal20;
+                    font-size: 30px;
+                    cursor: default;
+                    font-family: "Telegraf-UltraLight";
+                    text-decoration: none;
+                    vertical-align: middle;
+                }
+            }
+            h3 {
+                margin:0;
+                padding: 0 5px;
+                vertical-align: middle;
+                box-sizing: border-box;
+                a {
+                    display: inline-block;
+                    vertical-align: middle;
+                    line-height: 2.5;
+                    color: $metal20;
+                    font-size: 16px;
+                    cursor: default;
+                    font-family: "Telegraf-UltraLight";
+                    font-style: italic;
+                }
+            }
+        }
+    }
+}

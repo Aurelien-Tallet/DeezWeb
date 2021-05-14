@@ -1,0 +1,100 @@
+$aqua50: #5fbfa4;
+$aqua25: #a7dccd;
+$metal5: #f3f3f1;
+$metal20: #cfd0c8;
+$metal50: #868975;
+$metal80: #36372f;
+$metal90: #272822;
+th,
+td {
+    padding: 10px 20px;
+    vertical-align: middle;
+    text-align: left;
+}
+
+th {
+    color: $metal50;
+    font-size: 20px;
+    padding-top: 15px;
+    cursor: default;
+    font-family: "Telegraf-UltraLight";
+    &.active {
+        color: $metal5;
+        text-decoration: underline;
+    }
+    &.cover {
+        width: 60px;
+    }
+    &:hover {
+        color: $metal5;
+        transition: color ease-in 0.1s;
+    }
+}
+
+tr {
+    cursor: pointer;
+
+    td {
+        border-top: 1px solid $metal80;
+        color: $metal5;
+        font-family: "Telegraf-UltraLight";
+
+        a {
+            color: $metal20;
+            text-decoration: none;
+            font-family: "Telegraf-UltraLight";
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+        &.play-pause {
+            position: relative;
+            height: 40px;
+            width: 40px;
+            .imgContainer {
+                position: relative;
+                &:hover {
+                    .fav {
+                        display: block;
+                    }
+                }
+                .cover {
+                    margin: 0 15px;
+                    height: 40px;
+                    width: 40px;
+                }
+                .fav {
+                    display: none;
+                    position: absolute;
+                    top: 0;
+                    left: 5px;
+                    transform: translate(100%, 50%);
+                    max-width: 20px;
+                    max-height: 20px;
+
+                    .color {
+                        fill: white;
+                        &.active {
+                            fill: #f44336;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &.playing td {
+        // background: darken($metal90, 5%);
+        color: $metal20;
+
+        // &:nth-child(2) {
+        //     color: $aqua25;
+        // }
+    }
+
+    &:hover {
+        td {
+            background: $metal80;
+        }
+    }
+}

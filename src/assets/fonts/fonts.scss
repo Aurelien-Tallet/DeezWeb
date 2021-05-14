@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("./icomoon.eot?vvftp3");
+  src: url("./icomoon.eot?vvftp3#iefix") format("embedded-opentype"), url("./icomoon.ttf?vvftp3") format("truetype"),
+    url("./icomoon.woff?vvftp3") format("woff"), url("./icomoon.svg?vvftp3#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Telegraf-Regular";
+  src: url("Telegraf-Regular.eot");
+  src: url("Telegraf-Regular.eot?#iefix") format("embedded-opentype"), url("Telegraf-Regular.woff2") format("woff2"),
+    url("Telegraf-Regular.woff") format("woff"), url("Telegraf-Regular.ttf") format("truetype"),
+    url("Telegraf-Regular.svg#Telegraf-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Telegraf-UltraLight";
+  src: url("Telegraf-UltraLight.eot");
+  src: url("Telegraf-UltraLight.eot?#iefix") format("embedded-opentype"),
+    url("Telegraf-UltraLight.woff2") format("woff2"), url("Telegraf-UltraLight.woff") format("woff"),
+    url("Telegraf-UltraLight.ttf") format("truetype"), url("Telegraf-UltraLight.svg#Telegraf-UltraLight") format("svg");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Telegraf-UltraBold";
+  src: url("Telegraf-UltraBold.eot");
+  src: url("Telegraf-UltraBold.eot?#iefix") format("embedded-opentype"), url("Telegraf-UltraBold.woff2") format("woff2"),
+    url("Telegraf-UltraBold.woff") format("woff"), url("Telegraf-UltraBold.ttf") format("truetype"),
+    url("Telegraf-UltraBold.svg#Telegraf-UltraBold") format("svg");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+//vars
+:root {
+  //fonts
+  --telegraf-regular: "Telegraf-Regular", Helvetica, Arial;
+  --telegraf-bold: "Telegraf-UltraBold", Helvetica, Arial;
+  --telegraf-light: "Telegraf-UltraLight", Helvetica, Arial;
+}
+
+
